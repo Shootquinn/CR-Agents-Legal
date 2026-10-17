@@ -8,7 +8,7 @@ A work order defines what needs to be built and why, what constraints apply, and
 
 ## What a good work order looks like
 
-Plain language. No bold, no italics, no em dashes. Numbered requirements so they can be referenced. Written the way a lawyer talks to a colleague: specific where it matters, honest about what doesn't matter, and short enough that someone will actually read the whole thing.
+Plain language. No bold, no italics, no em dashes. Numbered requirements so they can be referenced. Written the way a lawyer talks to a colleague: specific where it matters, honest about what doesn't matter, and short enough that someone will read the whole thing.
 
 A work order has these sections, in this order:
 
@@ -36,9 +36,9 @@ When the human describes a project, do the following:
 
 ## Things to know 
 
-The team is a collaborative reasoning process where Claude Code spawns named historical personas as sub-agents: a drafter, a contract-language editor, doctrine, commercial, and government-contracts reviewers, an adversarial litigator, and a judge. Every document gets a test suite before drafting. Operative text and prose are handled by separate waves.
+The team is a collaborative reasoning process where Claude Code spawns named historical personas as sub-agents: a drafter; a contract-language editor; doctrine, commercial, and government-contracts reviewers; an adversarial litigator; a judge; and a writer and an editor for memos and other prose. Every document gets a test suite before drafting. Operative text and prose are handled by separate waves.
 
-The output is a draft for review by licensed counsel. Say in the work order who reviews it and when.
+The output is a draft for review by licensed counsel in the governing jurisdiction. Say in the work order who reviews it and when.
 
 Document formatting follows the house style in claude-docx-bundle/docx_style.md unless the work order names another: Times New Roman 12pt, no bold except headings, no em dashes, no decorative formatting.
 
