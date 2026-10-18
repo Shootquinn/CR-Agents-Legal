@@ -396,7 +396,7 @@ Do not resolve the tensions below, except in the two pairs The Manager settles: 
 ---
 
 ### A.11 End-of-Session Protocol
-
+At project close, after the final Manager close and before publish or handoff, run the project retrospective in `templates/retrospective.md`: The Manager, in executive review, reads the work from the user/client's first request to the delivered result. Its findings are advisory; the orchestrator checks each against the record and rules on it.
 1. Confirm the accumulator is current. The Manager writes entries at each step close (A.5.2), so this is a check, not a write. If a cycle closed without one, spawn The Manager to record it rather than writing it from the orchestrator's context.
 2. Update the gameplan (mark completed steps, update current step, add design notes and open questions).
 3. Write any in-progress work to disk.
