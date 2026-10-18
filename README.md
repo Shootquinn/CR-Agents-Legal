@@ -145,3 +145,14 @@ Gameplans are created before execution and may take a couple iterations to get r
 The one-step gate is enforced: after The Manager closes a step, Claude Code stops and reports. It does not open the next step until you say so. Use this time to provide feedback, adjust the gameplan, or flag issues.
 
 Work orders can be drafted in Claude web chat using `templates/work_order_drafter.md` before handing them to Claude Code for execution.
+
+---
+
+## Known issues (beta)
+
+- The method has no argument draft (the thesis and its strongest objections) before the test suite, so checks are written before the argument is.
+- Edits a user makes to a delivered file after the final check are not re-checked. Until the method covers this, diff the edited file against the frozen text and rerun the checks.
+- When gates are waived, the point sentence is not sent to the user to confirm.
+- The source list has no column for sources the user trusts over the source hierarchy.
+- A turn can end with agents still running and no named next action.
+- `method/operational_guide.md` and `supplements/contract-drafting.md` still need a trim pass. Eleven passages kept in upstream wording need a re-edit, and review findings deferred during the beta build remain open.

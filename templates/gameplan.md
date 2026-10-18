@@ -25,7 +25,7 @@
 
 ## Author Decisions (binding)
 
-[Numbered, appended as made, never renumbered. An overruled finding records its ID and a one-line reason.]
+[Numbered, appended as made, never renumbered. Each cites the user's message, quoted and dated, or is labelled Orchestrator ruling. An overruled finding records its ID and a one-line reason.]
 
 1.
 

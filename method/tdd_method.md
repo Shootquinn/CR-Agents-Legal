@@ -102,7 +102,7 @@ a topic sentence is provided—develop it into a complete paragraph.
 
 4. **Trace everything.** Every test maps to content. Every claim maps to evidence. Orphans indicate gaps.
 
-5. **Validate at outline stage.** Fixing a missing section in an outline costs minutes. Fixing it in a draft costs hours.
+5. **Validate at outline stage.** Fixing a missing section in an outline costs minutes. Fixing it in a draft costs hours. The outline's point is checked as arguable, or for operative text as the result the provision produces, before the suite is approved (operational guide A.6.2).
 
 6. **Audit tests on architecture migration.** When the system under test changes structure (an agreement renumbered or split into a master agreement and order forms, a policy split into a policy and a procedure, a monolithic script split into modules), every existing test that opens or references the old structure must be audited in the same step. A test that references a deleted object is not a pre-existing failure — it is a test that was broken by the migration and not fixed. The Software Engineer owns this audit as part of the migration step, not as deferred debt.
 
@@ -150,7 +150,7 @@ The revision pass operates under strict constraints:
 - **Preserve all technical meaning.** Technical terms and precise jargon survive. Decorative language does not.
 - **Test suite remains the contract.** Edits cannot introduce new test failures. Run the suite again after revision.
 
-This pass runs after content is frozen, so there is no risk of scope creep. A reviewer familiar with the domain (not just consistency checking, but evaluating whether a cognizant reader can follow the technical design intent) should verify that edits did not break the document's communication architecture.
+This pass runs after content is frozen, so there is no risk of scope creep. A reviewer familiar with the domain (not just consistency checking, but evaluating whether a cognizant reader can follow the technical design intent) should verify that edits did not break the document's communication architecture. A reader test reports its result against a pinned key; the result alone triggers no text edit and no suite rewrite, and the test runs at most twice per step unless the user asks. A reader's concrete misreading of operative text is a finding and takes the normal route (operational guide A.4 step 6).
 
 ```
 Revise the attached document for prose quality. Do not add content
