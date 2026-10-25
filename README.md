@@ -110,6 +110,9 @@ Every step produces reviewable documents on disk. The accumulator preserves pers
 | `method/tdd_method.md` | Test-driven documentation. Defines how test suites are built and used. |
 | `supplements/contract-drafting.md` | Building blocks, categories of contract language, defined terms, ambiguity, compliance-document rules, scriptable checks. Loaded into every Drafter and Contract Editor spawn. |
 | `supplements/signs_of_ai_writing.md` | AI writing detection. Severity-ordered categories. Loaded into every Editor spawn. |
+| `supplements/performative-epistemics.md` | Seven prose patterns cut on sight, with the delete test. Loaded into summary spawns. |
+| `supplements/source_summaries/md-summary-chat-prompt.md` | Source-summary prompt for lit_review projects. One neutral summary per article, report, or paper. Loaded into every summary spawn. |
+| `supplements/source_summaries/md-book-summary-chat-prompt.md` | Book-length variant: chapter agents, visual agents, merge. Loaded into book-summary spawns. |
 | `supplements/writing-guides/style.md` | Prose style and register. Loaded into every Writer spawn. |
 | `supplements/writing-guides/style-reference.md` | Punctuation, quoting, abbreviations, usage glossary. Lookup only, loaded on demand. |
 | `supplements/writing-guides/structure.md` | Document architecture: arc, openings, resolutions, information order. |
