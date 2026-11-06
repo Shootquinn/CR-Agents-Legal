@@ -146,7 +146,7 @@ The method may be less effective with models optimized primarily for conversatio
 After the document passes its test suite, a dedicated editing pass can improve prose quality without changing technical content. This addresses a specific LLM failure mode: text that passes all technical tests but reads like statistical average prose — correct but lifeless. Wikipedia's WP:AISIGNS (Signs of AI Writing) catalogues the patterns: overused transition words ("Additionally," "Furthermore"), dangling present participles ("ensuring," "highlighting"), puffery ("groundbreaking," "crucial"), elegant variation (synonyms that shift meaning), and superficial analysis ("reflecting broader trends").
 
 The revision pass operates under strict constraints:
-- **Subtract or replace, never add.** Replacements must be shorter than originals.
+- **Cut first.** Add a word only to save the reader a second read (a dropped verb, a pronoun with no antecedent, a figure without its noun). AI puffery rarely helps a sentence.
 - **Preserve all technical meaning.** Technical terms and precise jargon survive. Decorative language does not.
 - **Test suite remains the contract.** Edits cannot introduce new test failures. Run the suite again after revision.
 
@@ -154,8 +154,8 @@ This pass runs after content is frozen, so there is no risk of scope creep. A re
 
 ```
 Revise the attached document for prose quality. Do not add content
-or change technical meaning. Only subtract or replace words.
-Every replacement must be shorter than the original.
+or change technical meaning. Cut first. Add a word only to save the
+reader a second read. AI puffery rarely helps a sentence.
 
 Remove: decorative adjectives, dangling participle phrases
 ("ensuring...", "highlighting..."), puffery, elegant variation
